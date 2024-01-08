@@ -5609,7 +5609,7 @@
                 });
                 tl.from(sectionTitle, {}).from(sectionSubtitle, {
                     y: -50
-                }, "<50%").add(animateList).from(sectionImage, {
+                }, "<50%").add(animateList, "<").from(sectionImage, {
                     xPercent: 10,
                     duration: 1
                 }, "<30%").from(sectionDecor, {
